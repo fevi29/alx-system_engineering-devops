@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # apache 2
 
-Start Apache so as to return a
-page conatining Hello Holberton
+sudo service apache2 start
+sudo echo "Hello Holberton" | /var/www/html/index.html
